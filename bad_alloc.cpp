@@ -33,7 +33,7 @@ int main()
  int* ptr;
  try
  {
-  ptr=new int[100000000000];
+  ptr=new int[100000000000]; // new throws an exception as it will fail to allocate a requested amount of memory
   if(ptr==nullptr)
    cout<<"Memory is not allocated"<<endl;
  }
